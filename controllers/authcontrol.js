@@ -102,7 +102,7 @@ exports.logoutUser =(req, res, next) => {
         from: process.env.EMAIL_USER,   // Sender address
         to: user.email,                // Receiver address
         subject: 'Password Reset Request',  // Subject
-        text: `You are receiving this email because you (or someone else) has requested a password reset for your account.\n\nClick on the following link to reset your password: ${process.env.BASE_URL}/api/v1/password/reset/${token}`  // Reset link
+        text: `You are receiving this email because you (or someone else) has requested a password reset for your account.\n\nClick on the following link to reset your password: https://e-commercemyapp.netlify.app/password/reset/${token}`  // Reset link
       };
   
       // Send the email with the reset link
