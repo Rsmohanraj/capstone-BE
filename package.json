@@ -12,6 +12,10 @@
   "test": "react-scripts test",
   "eject": "react-scripts eject"
   },
+  "engines": {
+    "node": "20.12.2"
+
+  },
   "author": "mohanraj",
   "license": "ISC",
   "dependencies": {
