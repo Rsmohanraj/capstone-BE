@@ -14,7 +14,7 @@ dotenv.config();
 
 app.use(bodyParser.json())
 app.use(cors({
-    origin: 'https://e-commercemyapp.netlify.app/', // replace with your frontend URL
+    origin: 'https://e-commercemyapp.netlify.app', // replace with your frontend URL
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'] ,
     allowedHeaders: ['Content-Type', 'Authorization'], // replace with your allowed HTTP methods
